@@ -1,6 +1,7 @@
 package apcsp.modid.item;
 
 import apcsp.modid.Apcspmod;
+import apcsp.modid.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -14,6 +15,8 @@ public class ModItems {
     //  also if you add a new item you have to add it in the registerModItems function
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
     public static final Item ZOMBIFIED_SCRAP = registerItem("zombified_scrap", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Apcspmod.MOD_ID, name), item);
