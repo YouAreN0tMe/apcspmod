@@ -1,6 +1,7 @@
 package apcsp.modid.block;
 
 import apcsp.modid.Apcspmod;
+import apcsp.modid.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -31,6 +32,7 @@ public class ModBlocks {
         new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), 
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(Apcspmod.MOD_ID, name), 
@@ -52,6 +54,9 @@ public class ModBlocks {
             entries.add(PINK_GARNET_DEEPSLATE_ORE);
             entries.add(PINK_GARNET_ORE);
             entries.add(ZOMBIFIED_DEBRIS_BLOCK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
+            entries.add(MAGIC_BLOCK);
         });
         //^this is what adds the actual block to the game
     }
