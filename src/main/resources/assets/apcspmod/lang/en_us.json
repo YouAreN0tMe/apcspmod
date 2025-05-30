@@ -1,13 +1,15 @@
 {
     "item.apcspmod.pink_garnet": "Pink Garnet",
     "item.apcspmod.raw_pink_garnet": "Raw Pink Garnet",
+    "item.apcspmod.zombified_scrap": "Zombified Scrap",
+
     "block.apcspmod.pink_garnet_block": "Block of Pink Garnet",
     "block.apcspmod.raw_pink_garnet_block": "Raw Block of Pink Garnet",
-    "itemgroup.apcspmod.pink_garnet_items": "Pink Garnet Items",
-    "itemgroup.apcspmod.pink_garnet_blocks": "Pink Garnet Blocks",
     "block.apcspmod.pink_garnet_ore": "Pink Garnet Ore",
     "block.apcspmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
-    "block.apcspmod.zombified_debris_block": "Block of Zombified Debris"
+    "block.apcspmod.zombified_debris_block": "Block of Zombified Debris",
 
+    "itemgroup.apcspmod.pink_garnet_items": "Pink Garnet Items",
+    "itemgroup.apcspmod.pink_garnet_blocks": "Pink Garnet Blocks"
 
 }

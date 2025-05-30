@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "ingredient": {
+    "item": "apcspmod:zombified_debris_block"
+  },
+  "result": {
+    "id": "apcspmod:zombified_scrap"
+  }
+}

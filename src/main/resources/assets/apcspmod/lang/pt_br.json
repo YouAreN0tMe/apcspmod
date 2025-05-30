@@ -1,6 +1,14 @@
 {
-        "item.apcspmod.pink_garnet": "Granada Rosa",
-        "item.apcspmod.raw_pink_garnet": "Granada Rosa Crua",
-        "block.apcspmod.pink_garnet_block": "Bloco de Granada Rosa",
-        "block.apcspmod.raw_pink_garnet_block": "Bloco de Granada Rosa Crua"
+    "item.apcspmod.pink_garnet": "Granada Rosa",
+    "item.apcspmod.raw_pink_garnet": "Crua Rosa Granada",
+    "item.apcspmod.zombified_scrap": "Zombified Scrap",
+
+    "block.apcspmod.pink_garnet_block": "Bloco de Rosa Granada",
+    "block.apcspmod.raw_pink_garnet_block": "Crua Bloco de Rosa Granada",
+    "block.apcspmod.pink_garnet_ore": "Rosa Granada Ore",
+    "block.apcspmod.pink_garnet_deepslate_ore": "Rosa Granada Deepslate Ore",
+    "block.apcspmod.zombified_debris_block": "Bloco de Zombified Debris",
+
+    "itemgroup.apcspmod.pink_garnet_items": "Rosa Granada Items",
+    "itemgroup.apcspmod.pink_garnet_blocks": "Rosa Granada Blocos"
 }
