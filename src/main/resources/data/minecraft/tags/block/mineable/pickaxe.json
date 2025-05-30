@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "apcspmod:pink_garnet_block",
+        "apcspmod:raw_pink_garnet_block",
+        "apcspmod:pink_garnet_ore",
+        "apcspmod:pink_garnet_deepslate_ore"
+    ]
+}
