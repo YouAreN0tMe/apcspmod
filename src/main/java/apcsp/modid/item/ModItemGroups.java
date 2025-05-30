@@ -37,7 +37,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.apcspmod.zombified_group"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.ZOMBIFIED_DEBRIS);
+                        entries.add(ModItems.ZOMBIFIED_SCRAP);
                         entries.add(ModBlocks.ZOMBIFIED_DEBRIS_BLOCK);
                     }).build());
 
