@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "apcspmod:raw_pink_garnet"
+    }
+  },
+  "result": {
+    "id": "apcspmod:raw_pink_garnet_block",
+    "count": 1
+  },
+  "show_notification": true
+}
