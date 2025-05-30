@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "apcspmod:block/zombified_debris_block"
+        }
+    }
+}

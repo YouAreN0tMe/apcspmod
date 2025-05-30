@@ -13,6 +13,7 @@ public class ModItems {
     //^ this creates a new item to create another you just have to copy this line and change the item id
     //  also if you add a new item you have to add it in the registerModItems function
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item ZOMBIFIED_DEBRIS = registerItem("zombified_debris", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Apcspmod.MOD_ID, name), item);
@@ -25,6 +26,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
+            entries.add(ZOMBIFIED_DEBRIS);
         });
     }
     //  this adds the Pink Garnet to the Ingredients tab of creative mode

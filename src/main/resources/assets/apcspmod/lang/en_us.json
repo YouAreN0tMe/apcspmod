@@ -6,7 +6,8 @@
     "itemgroup.apcspmod.pink_garnet_items": "Pink Garnet Items",
     "itemgroup.apcspmod.pink_garnet_blocks": "Pink Garnet Blocks",
     "block.apcspmod.pink_garnet_ore": "Pink Garnet Ore",
-    "block.apcspmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
+    "block.apcspmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+    "block.apcspmod.zombified_debris_block": "Block of Zombified Debris"
 
 
 }

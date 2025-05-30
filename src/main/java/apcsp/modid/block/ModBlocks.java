@@ -27,6 +27,9 @@ public class ModBlocks {
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore", 
         new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block ZOMBIFIED_DEBRIS_BLOCK = registerBlock("zombified_debris_block", 
+        new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), 
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
 
     private static void registerBlockItem(String name, Block block) {
@@ -48,6 +51,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(PINK_GARNET_DEEPSLATE_ORE);
             entries.add(PINK_GARNET_ORE);
+            entries.add(ZOMBIFIED_DEBRIS_BLOCK);
         });
         //^this is what adds the actual block to the game
     }
