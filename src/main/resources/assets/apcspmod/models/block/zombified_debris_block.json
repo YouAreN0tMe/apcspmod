@@ -1,6 +1,7 @@
 {
-    "parent": "minecraft:block/cube_all",
+    "parent": "minecraft:block/cube_top",
     "textures": {
-        "all": "apcspmod:block/zombified_debris_block"
+        "top": "apcspmod:block/zombified_debris_block_top",
+        "side": "apcspmod:block/zombified_debris_block_side"
     }
 }

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "apcspmod:block/magic_block"
+        }
+    }
+}
