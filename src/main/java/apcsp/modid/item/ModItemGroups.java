@@ -38,8 +38,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
-    public static final ItemGroup ZOMBIFIED_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Apcspmod.MOD_ID, "zombified_group"),
+    public static final ItemGroup MY_OWN_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Apcspmod.MOD_ID, "my_own_group"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ZOMBIFIED_SCRAP))
                     .displayName(Text.translatable("itemgroup.apcspmod.my_own_group"))
                     .entries((displayContext, entries) -> {

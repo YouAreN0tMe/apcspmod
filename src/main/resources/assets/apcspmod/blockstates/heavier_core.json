@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "waterlogged=false": { "model": "apcspmod:heavier_core" },
+    "waterlogged=true":  { "model": "apcspmod:heavier_core", "x": 0, "y": 0, "uvlock": false }
+  }
+}

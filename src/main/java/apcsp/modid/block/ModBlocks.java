@@ -1,6 +1,7 @@
 package apcsp.modid.block;
 
 import apcsp.modid.Apcspmod;
+import apcsp.modid.block.custom.HeavierCore;
 import apcsp.modid.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
@@ -33,6 +34,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
+    public static final Block HEAVIER_CORE = registerBlock("heavier_core", new HeavierCore(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(Apcspmod.MOD_ID, name), 
