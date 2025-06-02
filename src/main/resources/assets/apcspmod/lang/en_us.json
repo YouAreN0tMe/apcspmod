@@ -5,6 +5,7 @@
     "item.apcspmod.chisel": "Chisel",
     "item.apcspmod.cauliflower": "Cauliflower",
     "item.apcspmod.starlight_ashes": "Starlight Ashes",
+    "item.apcspmod.heavier_core": "HEAVIER Core",
 
     "block.apcspmod.pink_garnet_block": "Block of Pink Garnet",
     "block.apcspmod.raw_pink_garnet_block": "Raw Block of Pink Garnet",
@@ -14,6 +15,6 @@
     "block.apcspmod.magic_block": "Magic Block",
 
     "itemgroup.apcspmod.pink_garnet_items": "Pink Garnet Items",
-    "itemgroup.apcspmod.pink_garnet_blocks": "Pink Garnet Blocks"
-
+    "itemgroup.apcspmod.pink_garnet_blocks": "Pink Garnet Blocks",
+    "itemgroup.apcspmod.my_own_group": "My Own Group"
 }

@@ -40,11 +40,12 @@ public class ModItemGroups {
 
     public static final ItemGroup ZOMBIFIED_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Apcspmod.MOD_ID, "zombified_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
-                    .displayName(Text.translatable("itemgroup.apcspmod.zombified_group"))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ZOMBIFIED_SCRAP))
+                    .displayName(Text.translatable("itemgroup.apcspmod.my_own_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.ZOMBIFIED_SCRAP);
                         entries.add(ModBlocks.ZOMBIFIED_DEBRIS_BLOCK);
+                        entries.add(ModItems.HEAVIER_CORE);
                     }).build());
 
     public static void registerItemGroups() {

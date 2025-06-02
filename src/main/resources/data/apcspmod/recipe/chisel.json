@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ##",
+    " ##",
+    "c  "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:breeze_rod"
+    },
+    "#": {
+      "item": "apcspmod:heavier_core"
+    }
+  },
+  "result": {
+    "id": "apcspmod:chisel",
+    "count": 1
+  },
+  "show_notification": true
+}

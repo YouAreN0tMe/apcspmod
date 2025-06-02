@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "apcspmod:raw_pink_garnet_block"
+  },
+  "result": {
+    "id": "apcspmod:pink_garnet"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}
