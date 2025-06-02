@@ -46,4 +46,10 @@ public class ChiselItem extends Item{
 
         return ActionResult.SUCCESS;
     }
+
+//    @Override
+//    public UseAction getUseAction(ItemStack stack) {
+//        return UseAction.DRINK;
+//    }
+//  To make a custom drink use the code above in another custom item class
 }
