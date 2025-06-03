@@ -22,7 +22,8 @@ public class ChiselItem extends Item{
                 Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                 Blocks.OAK_LOG, ModBlocks.PINK_GARNET_BLOCK,
                 Blocks.GOLD_BLOCK, Blocks.NETHERITE_BLOCK,
-                Blocks.CYAN_WOOL, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA
+                Blocks.CYAN_WOOL, Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA,
+                Blocks.NETHERRACK, Blocks.NETHER_WART_BLOCK
         );
 
     public ChiselItem(Settings settings) {

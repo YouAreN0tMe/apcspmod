@@ -16,5 +16,10 @@
 
     "itemgroup.apcspmod.pink_garnet_items": "Pink Garnet Items",
     "itemgroup.apcspmod.pink_garnet_blocks": "Pink Garnet Blocks",
-    "itemgroup.apcspmod.my_own_group": "My Own Group"
+    "itemgroup.apcspmod.my_own_group": "My Own Group",
+
+    "tooltip.apcspmod.magic_block.tooltip": "This block is very, very §kMagical§r.",
+    "tooltip.apcspmod.chisel.shift_down": "The chisel can be used to modify blocks. As of now it modifies the following blocks: Stone -> Stone Bricks, End Stone -> End Stone Bricks, Oak Log -> Block of Pink Garnet , Gold Block -> Netherite Block, Cyan Wool -> Light Blue Glazed Terracotta",
+    "tooltip.apcspmod.chisel": "Hold §eShift§r for more information.",
+    "tooltip.apcspmod.cauliflower": "This is delicious!"
 }
