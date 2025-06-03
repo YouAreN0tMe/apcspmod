@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#c#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "c": {
+      "item": "minecraft:heavy_core"
+    }
+  },
+  "result": {
+    "id": "apcspmod:chisel"
+  },
+  "show_notification": true
+}
