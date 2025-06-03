@@ -23,7 +23,7 @@ public class ModItems {
     public static final Item ZOMBIFIED_SCRAP = registerItem("zombified_scrap", new Item(new Item.Settings()));
     public static final Item HEAVIER_CORE = registerItem("heavier_core", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(3)));
 
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)) {
         @Override
